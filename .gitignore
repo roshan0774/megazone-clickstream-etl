@@ -1,0 +1,52 @@
+*.js
+terraform.rc
+.terraformrc
+*.tfstate.*
+*.tfstate
+.terraform/
+# Terraform
+
+Thumbs.db
+.DS_Store
+# OS
+
+*~
+*.swo
+*.swp
+.vscode/
+.idea/
+# IDE
+
+env/
+ENV/
+venv/
+*.egg
+.installed.cfg
+*.egg-info/
+wheels/
+var/
+sdist/
+parts/
+lib64/
+lib/
+.eggs/
+eggs/
+downloads/
+dist/
+develop-eggs/
+build/
+.Python
+*.so
+*$py.class
+*.py[cod]
+__pycache__/
+# Python
+
+cdk.out
+.cdk.staging
+# CDK asset staging directory
+
+node_modules
+*.d.ts
+!jest.config.js
+
